@@ -1,0 +1,7 @@
+I’m a product manager at a company that’s building a saas application. The application will be used to provide AI applications and services to our customers and the workflows they use.
+
+In order to succeed we need a GUI for the administration of the system. It needs to have a page for user administration like adding or deleting users, and a page that shows the services the customer is entitled to, has used and how many credits they have left. Is it possible to build a compelling prototype gui using static HTML? 
+
+I don’t need it to be functional, just a starting point for discussion with the development team.?
+
+Also I don’t want to have to create different files. Can you build the example so everything is in just the one file? It’s only for discussion purposes so there’s no concerns about it being a real product with what you generate.
