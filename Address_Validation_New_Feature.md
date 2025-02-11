@@ -1,6 +1,3 @@
-Here’s a more visually compelling and well-structured version of your Markdown file, optimized for readability on GitHub:
-
-```markdown
 # 📝 Prompt for Generating JIRA / DevOps Items for a New Feature
 
 This prompt is designed to help Product Managers generate a comprehensive set of **Epics**, **User Stories**, and **Acceptance Criteria** for a new feature. 
@@ -109,8 +106,3 @@ As a user, I want the address validation feature to handle data securely to ensu
 3. Share with your development team to begin the implementation process.
 
 ---
-
-### 🚀 Happy Feature Building!
-``` 
-
-This version uses emojis, headers, and consistent formatting to make the content more engaging and user-friendly when viewed in a GitHub file. It also includes practical examples and clear instructions for users.
