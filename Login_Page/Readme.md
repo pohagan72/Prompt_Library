@@ -45,4 +45,7 @@ I need an HTML file for a login page for a SaaS application. The design should r
 
 Generate a complete HTML file, with detailed comments, containing the described login page structure and styling.
 ```
+The generated HMTL looks like this:
+
+![image](https://github.com/user-attachments/assets/45b86348-a720-4991-a1c8-c4f0f4daa9cf)
 
