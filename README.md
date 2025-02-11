@@ -9,5 +9,3 @@ While not fully refined or well documented, the context should provide insight i
 --------------------
 
 Most testing is done at [LM Arena](https://lmarena.ai/) to simplify comparison between model output with the same prompt.
-
-test
