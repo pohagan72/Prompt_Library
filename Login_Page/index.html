@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AI SaaS Platform</title>
+    <style>
+        /* Corporate Colors */
+        :root {
+            --primary1: rgb(35, 55, 70);
+            --primary2: rgb(7, 77, 131);
+            --primary3: rgb(0, 111, 186);
+            --primary4: rgb(0, 169, 224);
+            --text-color: #ffffff;
+            --background: #f4f7f9;
+        }
+
+        /* Reset & General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: var(--background);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Login Container */
+        .login-container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        /* Logo Placeholder */
+        .logo {
+            width: 150px;
+            height: 50px;
+            background: var(--primary1);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-color);
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Input Styles */
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-size: 14px;
+            color: var(--primary1);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--primary3);
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Login Button */
+        .login-btn {
+            width: 100%;
+            background: var(--primary3);
+            color: var(--text-color);
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .login-btn:hover {
+            background: var(--primary4);
+        }
+
+        /* Forgot Password */
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: var(--primary2);
+            text-decoration: none;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        /* Language Selector */
+        .language-selector {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        select {
+            padding: 5px;
+            border: 1px solid var(--primary2);
+            border-radius: 5px;
+            font-size: 14px;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <label for="language"></label>
+        <select id="language">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+            <option value="pt">Português (BR)</option>
+        </select>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-container">
+        <div class="logo">Your Logo</div> <!-- Placeholder for Corporate Logo -->
+
+        <h2>Login</h2>
+
+        <form>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="login-btn">Sign In</button>
+
+            <a href="#" class="forgot-password">Forgot your password?</a>
+        </form>
+    </div>
+
+</body>
+</html>
