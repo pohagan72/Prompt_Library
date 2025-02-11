@@ -1,6 +1,7 @@
 ## SaaS Login Page Generation
 --------------------
 
+### Description
 A frequent requirement from stakeholders, both internal and external, is to have a fast prototype of an application or feature to support a feedback and review session.
 
 This does not mean a developed solution is required. It means something that *_looks*_ like it could work, and has elements consistent with the desired final version. 
@@ -45,7 +46,7 @@ I need an HTML file for a login page for a SaaS application. The design should r
 
 Generate a complete HTML file, with detailed comments, containing the described login page structure and styling.
 ```
-The generated HMTL looks like this:
+### Result Prototype GUI
 
 ![image](https://github.com/user-attachments/assets/45b86348-a720-4991-a1c8-c4f0f4daa9cf)
 
