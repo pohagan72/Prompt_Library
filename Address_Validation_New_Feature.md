@@ -1,4 +1,4 @@
-# Prompt for Generating JIRA / DevOps Items for a New Feature
+# Generate JIRA / DevOps Items for a New Feature
 
 This prompt is designed to help Product Managers generate a comprehensive set of **Epics**, **User Stories**, and **Acceptance Criteria** for a new feature. 
 
