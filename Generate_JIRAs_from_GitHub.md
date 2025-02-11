@@ -1,4 +1,8 @@
+# Prompt for Generating JIRA / DevOps Items from a GitHub repo
 
+This prompt is designed to help Product Managers generate a comprehensive set of **Epics**, **User Stories**, and **Acceptance Criteria** for a new feature based on reading the files from a GitHub repository.
+
+Tested using https://lmarena.ai/ 
 
 ```
 ### Scenario:
