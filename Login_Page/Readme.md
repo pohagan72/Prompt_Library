@@ -54,4 +54,6 @@ Generate a complete HTML file, with detailed comments, containing the described 
 
 ### Result Prototype GUI
 
+Index.html file located here: https://github.com/pohagan72/Prompt_Library/blob/main/Login_Page/index.html 
+
 ![image](https://github.com/user-attachments/assets/45b86348-a720-4991-a1c8-c4f0f4daa9cf)
