@@ -19,4 +19,16 @@ Used to generate an example login page to a SaaS appliction using colours specif
 
 https://github.com/pohagan72/Prompt_Library/blob/main/Login_Page/Readme.md
 
+--------------------
 
+### Generate JIRAs for New Feature
+Used to generate Epics, Stories and Acceptance Criteria based on the description of a new feature.
+
+https://github.com/pohagan72/Prompt_Library/blob/main/Address_Validation_New_Feature.md 
+
+--------------------
+
+### Generate JIRAs from GitHub
+Used to generate Epics, Stories and Acceptance Criteria based on reviewing the content of a GitHub repo.
+
+https://github.com/pohagan72/Prompt_Library/blob/main/Generate_JIRAs_from_GitHub.md
