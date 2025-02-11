@@ -2,7 +2,7 @@
 
 This prompt is designed to help Product Managers generate a comprehensive set of **Epics**, **User Stories**, and **Acceptance Criteria** for a new feature. 
 
-The example provided focuses on a **data integration technology** and a feature for **data cleansing of address details**. The goal is to describe the feature's purpose, its target users, and the expectations for its implementation in a manner that is secure, scalable, and developer-friendly.
+This example focuses on a **data integration technology** and a feature for **data cleansing of address details**. The goal is to describe the feature's purpose, its target users, and the expectations for its implementation in a manner that is secure, scalable, and developer-friendly.
 
 ---
 
