@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Prompt](#prompt)
 - [Result Prototype GUI](#result-prototype-gui)
+--------------------
 
 ### Description
 A frequent requirement from stakeholders, both internal and external, is to have a fast prototype of an application or feature to support a feedback and review session.
@@ -12,9 +13,9 @@ A frequent requirement from stakeholders, both internal and external, is to have
 This does not mean a developed solution is required. It means something that *_looks*_ like it could work, and has elements consistent with the desired final version. 
 
 In this scenario, the requirement is for a dynamic and modern login page for a SaaS application which uses specific approved colours from the customer. The prompt used to generate the `index.html` content is:
+--------------------
 
 ### Prompt
---------------------
 
 ```prompt
 I need an HTML file for a login page for a SaaS application. The design should resemble modern login pages found on platforms like Facebook, Google Mail, Outlook.com, Reddit, etc.
@@ -51,7 +52,7 @@ I need an HTML file for a login page for a SaaS application. The design should r
 
 Generate a complete HTML file, with detailed comments, containing the described login page structure and styling.
 ```
-
+--------------------
 ### Result Prototype GUI
 
 Index.html file located here: https://github.com/pohagan72/Prompt_Library/blob/main/Login_Page/index.html 
