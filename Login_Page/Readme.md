@@ -1,12 +1,17 @@
 ## SaaS Login Page Generation
 --------------------
 
+### Table of Contents
+- [Description](#description)
+- [Prompt](#prompt)
+- [Result Prototype GUI](#result-prototype-gui)
+
 ### Description
 A frequent requirement from stakeholders, both internal and external, is to have a fast prototype of an application or feature to support a feedback and review session.
 
 This does not mean a developed solution is required. It means something that *_looks*_ like it could work, and has elements consistent with the desired final version. 
 
-In this scenario, the  requirement is for a dynamic and modern login page for a SaaS application which uses specific approved colours from the customer. The prompt used to generate the index.html content is:
+In this scenario, the requirement is for a dynamic and modern login page for a SaaS application which uses specific approved colours from the customer. The prompt used to generate the `index.html` content is:
 
 ### Prompt
 --------------------
@@ -46,7 +51,7 @@ I need an HTML file for a login page for a SaaS application. The design should r
 
 Generate a complete HTML file, with detailed comments, containing the described login page structure and styling.
 ```
+
 ### Result Prototype GUI
 
 ![image](https://github.com/user-attachments/assets/45b86348-a720-4991-a1c8-c4f0f4daa9cf)
-
