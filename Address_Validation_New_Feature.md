@@ -49,10 +49,3 @@ Clear, testable conditions that define when a feature or story is complete.
 - **Focus on Outcomes**: Define the "what" and "why," but leave the "how" to the developers.  
 
 ```
-
-## How to Use This Prompt
-1. Copy and paste this prompt into your JIRA or Azure DevOps platform to kickstart your requirements gathering process.
-2. Customize the **Epics**, **User Stories**, and **Acceptance Criteria** to align with your specific feature needs.
-3. Share with your development team to begin the implementation process.
-
----
