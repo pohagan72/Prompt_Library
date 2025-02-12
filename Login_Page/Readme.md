@@ -10,9 +10,10 @@
 ### Description
 A frequent requirement from stakeholders, both internal and external, is to have a fast prototype of an application or feature to support a feedback and review session.
 
-This does not mean a developed solution is required. It means something that *_looks*_ like it could work, and has elements consistent with the desired final version. 
+This does not mean a developed solution is required. It means something that *_looks*_ like it could work, and has elements consistent with the desired final version.
 
 In this scenario, the requirement is for a dynamic and modern login page for a SaaS application which uses specific approved colours from the customer. The prompt used to generate the `index.html` content is:
+
 --------------------
 
 ### Prompt
