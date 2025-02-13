@@ -1,6 +1,6 @@
 ## Determining if Website Text Indicates a Legal Focus
 
-Epert system approach to determine if a website's extracted text suggests the website belongs to a company that operates primarily in the legal field. The system is designed to provide a definitive "yes" or "no" only when there is strong evidence, and "unsure" when the evidence is ambiguous or insufficient.
+Expert system approach to determine if a website's extracted text suggests the website belongs to a company that operates primarily in the legal field. The system is designed to provide a definitive "yes" or "no" only when there is strong evidence, and "unsure" when the evidence is ambiguous or insufficient.
 
 **How it Works:**
 
