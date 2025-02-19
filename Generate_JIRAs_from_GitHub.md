@@ -8,11 +8,6 @@ Tested using https://lmarena.ai/
 ### Scenario:
 Imagine you are the Product Manager for the product in this github repo. You are responsible for defining the most critical capabilities for it that will be used by developers, QA and documentation to understand what should be built. 
 
-### Feature Overview:
-- **Primary Goal**: Identify whether an address in a database is valid.  
-- **Scope**: The feature must support addresses from **any country**.  
-- **Key Concerns**: The implementation must be **secure** and **scalable**.  
-
 ---
 
 ## Your Role:
