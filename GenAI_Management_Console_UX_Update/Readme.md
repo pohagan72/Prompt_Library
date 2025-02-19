@@ -22,5 +22,5 @@ Then using GenAI I refined the generated HTML to make the changes I wanted with 
 
 ![End Result](image-1.png)
 
-And with that, I was able use GenAI to create the Epics, Stories and User Acceptance Criteria with PROMPT 3: pohagan72/Prompt_Library/GenAI_Management_Console_UX_Update/Prompt 3.md
+And with that, I was able use GenAI to create the Epics, Stories and User Acceptance Criteria with a third and final prompt: https://github.com/pohagan72/Prompt_Library/blob/main/GenAI_Management_Console_UX_Update/Prompt%203.md
 
