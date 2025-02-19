@@ -18,7 +18,7 @@ It took a few turns with my GenAI tool of choice but eventually I got this repre
 
 ![Converted to HTML](image-2.png)
 
-Then using GenAI I refined the generated HTML to make the changes I wanted with PROMPT 2: pohagan72/Prompt_Library/GenAI_Management_Console_UX_Update/Prompt2.md
+Then using GenAI I refined the generated HTML to make the changes I wanted with a second prompt: https://github.com/pohagan72/Prompt_Library/blob/main/GenAI_Management_Console_UX_Update/Prompt2.md
 
 ![End Result](image-1.png)
 
