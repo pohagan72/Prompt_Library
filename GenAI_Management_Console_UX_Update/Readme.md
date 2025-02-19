@@ -12,7 +12,7 @@ By being GenAI native and create a new workflow to meet the request, I delivered
 I started by taking a screenshot:
 ![Original Image](image.png)
 
-Of the current page and copying it into my GenAI tool with prompt: PROMPT 1 pohagan72/Prompt_Library/GenAI_Management_Console_UX_Update/Prompt1.md
+Of the current page and copying it into my GenAI tool with this prompt: https://github.com/pohagan72/Prompt_Library/blob/main/GenAI_Management_Console_UX_Update/Prompt1.md
 
 It took a few turns with my GenAI tool of choice but eventually I got this representation that was more than good enough: 
 
