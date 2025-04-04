@@ -1,5 +1,6 @@
 This is the prompt from the MyFamilyWizard AI Agent for summarizing activities by year. 
 
+Full application is here: https://github.com/pohagan72/pohagan72-OurFamilyWizard-Message-Analyzer 
 
 ```
 Synthesize the provided monthly analyses for the entire year {year} involving participants {participants}.
