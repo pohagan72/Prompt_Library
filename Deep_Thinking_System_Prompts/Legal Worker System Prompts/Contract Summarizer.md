@@ -1,4 +1,4 @@
-# Prompt Explanation: Expert Legal Contract Summarizer
+# Expert Legal Contract Summarizer
 
 ## 1. Persona Definition
 
