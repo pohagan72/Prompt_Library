@@ -1,7 +1,3 @@
-Certainly! Based on the content of the files provided in the repository, here's an updated version of the `README.md` file for the repository:
-
----
-
 # Paul's Prompt Library
 
 A carefully curated collection of prompts designed to optimize productivity and creativity in AI-assisted workflows. This library includes prompts tailored for UI/UX design, product management, software development, legal analysis, and more.
@@ -48,43 +44,3 @@ Prompts designed for deep thinking, legal analysis, and systematic workflows:
 Unique prompts tailored for specific use cases:
 - **[OurFamilyWizard Annual Summary](./OurFamilyWizard_AnnualSummary.md):** Summarize yearly activity from monthly analyses in a JSON format.
 - **[GenAI UX Workflow Prompts](./GenAI_Management_Console_UX_Update):** A series of prompts for using GenAI to create, refine, and document UX updates.
-
----
-
-## How to Use
-
-Each prompt includes detailed instructions to guide you through its effective use. To use a prompt:
-1. Navigate to the specific prompt file for full details.
-2. Copy the prompt text and adapt it to your specific use case.
-3. Use an AI tool like ChatGPT or a custom LLM environment to run the prompt.
-
----
-
-## Contributing
-
-We welcome contributions to improve the library or add new prompts! To contribute:
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Submit a pull request with a clear description of your updates.
-
----
-
-## Testing Environment
-
-Most prompts were tested using [LM Arena](https://lmarena.ai/), a platform for comparing outputs from different AI models. Results were used to refine prompts for clarity, precision, and effectiveness.
-
----
-
-## License
-
-This repository is licensed under [MIT License](LICENSE). Feel free to use, modify, and distribute the prompts for personal or commercial use.
-
----
-
-## Feedback
-
-Questions or suggestions? Feel free to open an issue or contact the repository maintainer.
-
----
-
-This updated README consolidates all the prompts in the repository while maintaining the professional tone and structure of the original file. Let me know if you’d like further refinements!
