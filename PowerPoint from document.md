@@ -113,17 +113,17 @@ Generate the **complete** presentation outline now, following ALL instructions m
     ...
     ---
     ```
-    *   **Why:** This provides an explicit template (few-shot learning example) for the LLM. It demonstrates *exactly* how each slide's data should be formatted, including the field names, colons, and expected content style. The concrete example is far more effective than abstract descriptions alone in guiding the LLM's output format. The parser (`parse_llm_output`) directly relies on finding these `Field Name:` prefixes.
+    *   Provides an explicit template (few-shot learning example) for the LLM. It demonstrates *exactly* how each slide's data should be formatted, including the field names, colons, and expected content style. The concrete example is far more effective than abstract descriptions alone in guiding the LLM's output format. The parser (`parse_llm_output`) directly relies on finding these `Field Name:` prefixes.
 
 7.  **Presentation Flow Guidance:**
     ```prompt
     **Presentation Flow Guidance (Adapt as needed based on content):**
     1. Title Slide, 2. Agenda/Overview, ...
     ```
-    *   **Why:** Suggests a logical narrative structure for the presentation, helping the LLM organize the extracted information coherently rather than just listing facts sequentially.
+    *   Suggests a logical narrative structure for the presentation, helping the LLM organize the extracted information coherently rather than just listing facts sequentially.
 
 8.  **Content & Style Guidelines:**
-    *   **Why:** Reinforces expectations about structure, bullet detail, prioritization, tailoring, elaboration value, and handling sparse data. These act as supplementary quality control instructions.
+    *   Reinforces expectations about structure, bullet detail, prioritization, tailoring, elaboration value, and handling sparse data. These act as supplementary quality control instructions.
 
 9.  **Source Document Inclusion:**
     ```prompt
@@ -132,16 +132,8 @@ Generate the **complete** presentation outline now, following ALL instructions m
     {truncated_text}
     \"\"\"
     ```
-    *   **Why:** Clearly delineates the user-provided source material that the LLM must base its output on. The triple quotes help manage multi-line text input.
+    *   Clearly delineates the user-provided source material that the LLM must base its output on. The triple quotes help manage multi-line text input.
 
-## The Payoff: Enabling Downstream Processing
+## End Result
 
-The meticulous structure enforced by `build_llm_prompt` is not just for the LLM; it's **crucial** for the application's subsequent steps:
-
-1.  **Reliable Parsing (`parse_llm_output`):** This function heavily depends on the predictable format. It splits by `---`, then iterates through lines looking for known prefixes (`Slide Title:`, `Key Message:`, etc.). If the LLM deviated significantly from this format (e.g., omitting fields, changing prefixes, not using `---`), the parser would fail or produce incomplete/incorrect data, breaking the entire workflow. The requirement for *all* fields, even if marked "N/A", ensures the parser can always expect and find each key.
-2.  **Structured Data for Generation (`create_presentation`):** The parser produces a list of dictionaries (`slides_data`), where each dictionary represents a slide and contains keys corresponding to the fields mandated in the prompt. The `create_presentation` function then uses this structured data to populate the PowerPoint template, placing the `title`, `key_message`, `bullets`, and importantly, the structured `notes`, `elaboration`, `enhancement_suggestion`, and `best_practice_tip` into the appropriate parts of the slide and notes page (`add_formatted_notes`). Without the prompt enforcing the generation of these specific fields, the final PPTX would be far less valuable.
-3.  **Consistency:** While LLM output can still vary, the strict prompt significantly increases the consistency of the output format across different runs and inputs, making the application more robust.
-
-## Conclusion
-
-The `build_llm_prompt` function is far more than just a simple request to the LLM. It is a carefully engineered set of constraints, examples, and context designed to guide the LLM towards generating **structured, detailed, and parsable** output. Its explicit instructions regarding delimiters (`---`), mandatory fields, specific formatting, and content quality are the foundation upon which the subsequent parsing (`parse_llm_output`) and presentation generation (`create_presentation`) steps depend. Without this level of detail and constraint in the prompt, the application would likely produce inconsistent, difficult-to-parse results, failing to reliably deliver the desired rich PowerPoint outline. It exemplifies the critical role of meticulous prompt engineering in leveraging LLMs for complex, structured tasks.
+The structure of this prompt is not just for the LLM; it's **crucial** for the application that uses it. By providing reliable parsing with a predictable format, in a structured format and that is always consistent helps ensure no hallucinations and enables the application to use this prompt in a production application.
