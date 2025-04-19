@@ -76,11 +76,11 @@ Generate the **complete** presentation outline now, following ALL instructions m
 
 ## Dissecting the Prompt Function
 
-The `build_llm_prompt` function is responsible for constructing the detailed instructions sent to the LLM. Let's break down its key components and their importance:
+The prompt function is responsible for constructing the detailed instructions sent to the LLM. Here's a breakdown of the key components and what they do:
 
 1.  **Input Parameters:**
     *   `document_text`: The raw text extracted from the user's file.
-    *   `template_name`, `audience`, `tone`: User-selected options that provide crucial context for tailoring the presentation's style and content.
+    *   `template_name`, `audience`, `tone`: User-selected options that provide crucial context for tailoring the presentation's style and content. These are done through the app that was created that uses the prompt.
 
 2.  **Preprocessing - Text Truncation:**
    
