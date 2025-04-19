@@ -11,11 +11,13 @@ The `build_llm_prompt` function is responsible for constructing the detailed ins
     *   `template_name`, `audience`, `tone`: User-selected options that provide crucial context for tailoring the presentation's style and content.
 
 2.  **Preprocessing - Text Truncation:**
-    ```python
+   
+```python
     max_chars = 400000 # Limit input text size
     truncated_text = document_text[:max_chars]
-    ```
-    *   **Why:** LLMs have input token limits. Sending excessively long text can lead to API errors or incomplete processing. This step ensures the input text stays within a reasonable (though still large) boundary, sacrificing some trailing content if necessary but preventing outright failure. A warning is logged if truncation occurs.
+```
+ 
+*   **Why:** LLMs have input token limits. Sending excessively long text can lead to API errors or incomplete processing. This step ensures the input text stays within a reasonable (though still large) boundary, sacrificing some trailing content if necessary but preventing outright failure. A warning is logged if truncation occurs.
 
 3.  **Context Injection:**
     ```python
