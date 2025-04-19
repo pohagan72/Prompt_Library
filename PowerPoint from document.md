@@ -87,11 +87,12 @@ Generate the **complete** presentation outline now, following ALL instructions m
     *   Sets the persona and the primary goal for the LLM. Framing it as an "expert designer AND coach" encourages output that includes not just content but also actionable advice (notes, suggestions, tips). Specifying the desired output length (`~10-15 slides`) provides a target scope.
 
 4.  **CRITICAL INSTRUCTIONS - The Core Constraint System:**
-        *   **Instruction 1 & 3 (`---` Separator):** `Start each slide block *exactly* with --- on its own line.` This defines a clear, unambiguous delimiter between slide data blocks, which is essential for the `parse_llm_output` function's `re.split(r'\n\s*---\s*\n', llm_text.strip())` logic. Without this reliable separator, parsing would become extremely fragile.
+
+    *   **Instruction 1 & 3 (`---` Separator):** `Start each slide block *exactly* with --- on its own line.` This defines a clear, unambiguous delimiter between slide data blocks, which is essential for the `parse_llm_output` function's `re.split(r'\n\s*---\s*\n', llm_text.strip())` logic. Without this reliable separator, parsing would become extremely fragile.
     *   **Instruction 2 (Mandatory Fields):** `**ALL fields listed (...) ARE REQUIRED for each slide block.** Do not omit fields. Provide meaningful content or state 'None' or 'N/A' where appropriate but the field label MUST be present.` This combats the tendency of LLMs to omit information or vary their output structure. By demanding *every* listed field (`Slide Title`, `Content Type`, `Key Message`, `Bullets`, `Visual Suggestion`, `Design Note`, `Notes`, `Elaboration`, `Enhancement Suggestion`, `Best Practice Tip`), the prompt forces the LLM to generate a consistent data structure for *every* slide. The allowance for "None" or "N/A" provides an escape hatch for the LLM when content isn't applicable, but crucially *preserves the field label*, maintaining the parseable structure.
     *   **Instructions 4, 5, 6 (Content Quality):** These instructions guide the *quality* and *depth* of the content within the structure (informative bullets, significant elaboration, actionable suggestions). They push the LLM beyond superficial output.
 
-5.  **Required Slide Block Format & Example:**
+6.  **Required Slide Block Format & Example:**
     ```prompt
     **Required Slide Block Format (Example Included):**
 
@@ -114,17 +115,17 @@ Generate the **complete** presentation outline now, following ALL instructions m
     ```
     *   **Why:** This provides an explicit template (few-shot learning example) for the LLM. It demonstrates *exactly* how each slide's data should be formatted, including the field names, colons, and expected content style. The concrete example is far more effective than abstract descriptions alone in guiding the LLM's output format. The parser (`parse_llm_output`) directly relies on finding these `Field Name:` prefixes.
 
-6.  **Presentation Flow Guidance:**
+7.  **Presentation Flow Guidance:**
     ```prompt
     **Presentation Flow Guidance (Adapt as needed based on content):**
     1. Title Slide, 2. Agenda/Overview, ...
     ```
     *   **Why:** Suggests a logical narrative structure for the presentation, helping the LLM organize the extracted information coherently rather than just listing facts sequentially.
 
-7.  **Content & Style Guidelines:**
+8.  **Content & Style Guidelines:**
     *   **Why:** Reinforces expectations about structure, bullet detail, prioritization, tailoring, elaboration value, and handling sparse data. These act as supplementary quality control instructions.
 
-8.  **Source Document Inclusion:**
+9.  **Source Document Inclusion:**
     ```prompt
     **Source Document Text:**
     \"\"\"
