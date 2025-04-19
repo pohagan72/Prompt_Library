@@ -1,6 +1,6 @@
 ## The Challenge: Creating a PowerPoint from any Document
 
-The core challenge is transforming potentially lengthy and unstructured text from a document into a well-organized, multi-slide presentation outline. This outline needs more than just bullet points; it requires titles, key messages, speaker notes, and even design suggestions to be genuinely useful. LLMs are powerful, but they require precise instructions to reliably generate output in a specific, complex format.
+The goal of this prompt is to transform a potentially long document into a well-organized, multi-slide presentation outline. Beyond simple bullet points, the presentation must contain titles, key messages, speaker notes, and even design suggestions. This prompt is designed with precise instruction in mind to create the complex format, in a tone and for an audiance defined by a user, in a specific format that can be transformed into the PowerPoint outline.
 
 ## Dissecting the `build_llm_prompt` Function
 
