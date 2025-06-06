@@ -8,8 +8,6 @@ This document provides a reusable, advanced prompt shell designed to instruct an
 
 ## The Prompt
 
-Below is the complete prompt. To use it, copy the text and replace the bracketed placeholders (e.g., `[Company Name]`) with your specific targets.
-
 > **Persona:**
 > You are a senior competitive intelligence analyst.
 >
