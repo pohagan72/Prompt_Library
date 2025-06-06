@@ -1,5 +1,3 @@
----
-
 # Advanced Competitive Analysis Prompt Shell
 
 This document provides a reusable, advanced prompt shell designed to instruct an AI agent to generate a comprehensive competitive analysis report. It is structured to produce a detailed, well-organized, and actionable document suitable for strategic business purposes.
