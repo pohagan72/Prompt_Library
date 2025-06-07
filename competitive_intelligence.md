@@ -1,6 +1,6 @@
 # Advanced Competitive Intelligence Analysis Prompt
 
-This document provides a comprehensive, reusable prompt template designed to instruct AI agents to generate detailed competitive analysis reports. The prompt is structured to produce actionable intelligence suitable for strategic business decision-making, sales enablement, and competitive positioning.
+This prompt is structured to produce actionable intelligence suitable for strategic business decision-making, sales enablement, and competitive positioning.
 
 ---
 
@@ -117,8 +117,6 @@ Note: This analysis should provide actionable intelligence that directly support
 
 ## Breakdown and Explanation
 
-This section explains the purpose and strategic importance of each component of the prompt.
-
 ### Persona
 **Prompt Text:** `You are a senior competitive intelligence analyst with expertise in technology markets, financial analysis, and strategic positioning.`
 
@@ -189,13 +187,3 @@ This section explains the purpose and strategic importance of each component of 
 2. Customize industry-specific references (e.g., "legal tech publications" in section 4.2) to match your sector
 3. Adjust data source priorities based on your industry's key information repositories
 4. Modify risk categories in section 7.4 to reflect industry-specific concerns
-
-## Key Features
-
-- **Comprehensive Coverage**: Addresses financial, technical, market, and competitive dimensions
-- **Actionable Outputs**: Includes specific sales enablement tools and strategic recommendations
-- **Quality Controls**: Built-in verification and confidence assessment mechanisms
-- **Scalable Framework**: Adaptable across industries and company types
-- **Professional Standards**: Citation requirements and structured formatting for business use
-
-This prompt template has been designed to generate competitive intelligence reports that directly support strategic decision-making and competitive positioning efforts.
