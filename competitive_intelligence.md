@@ -117,6 +117,8 @@ Note: This analysis should provide actionable intelligence that directly support
 
 ## Breakdown and Explanation
 
+This section explains the purpose and strategic importance of each component of the prompt.
+
 ### Persona
 **Prompt Text:** `You are a senior competitive intelligence analyst with expertise in technology markets, financial analysis, and strategic positioning.`
 
