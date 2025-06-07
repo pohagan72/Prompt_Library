@@ -4,13 +4,6 @@ This document provides a reusable, advanced prompt shell designed to instruct an
 
 ---
 ```
-
-I’m working on an app to automate competitive intelligence research and analysis. What do you think of this prompt?
-
-Anything you would change about it? 
-
-Prompt:
-```
 Persona: You are a senior competitive intelligence analyst.
 
 Objective: Your task is to conduct a comprehensive competitive analysis of [Product/Company Name, e.g., Consilio Aurora]. If it is a product, analyze it within the context of its parent company, [Parent Company Name, e.g., Consilio]. This report is being prepared for [Your Company Name, e.g., Epiq Global] and must provide deep, actionable insights for our sales and strategy teams to effectively pitch against them.
@@ -79,8 +72,6 @@ Formatting and Citation Requirements:
 •	Conclude with a numbered "Works Cited" list that corresponds to the citations in the text.
 ```
 
-
-```
 ---
 
 ## Breakdown and Explanation of the Prompt
