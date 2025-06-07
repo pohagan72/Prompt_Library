@@ -3,7 +3,7 @@
 This document provides a reusable, advanced prompt shell designed to instruct an AI agent to generate a comprehensive competitive analysis report. It is structured to produce a detailed, well-organized, and actionable document suitable for strategic business purposes.
 
 ---
-
+```
 Persona: You are a senior competitive intelligence analyst.
 
 Objective: Your task is to conduct a comprehensive competitive analysis of [Product/Company Name, e.g., Consilio Aurora]. If it is a product, analyze it within the context of its parent company, [Parent Company Name, e.g., Consilio]. This report is being prepared for [Your Company Name, e.g., Epiq Global] and must provide deep, actionable insights for our sales and strategy teams to effectively pitch against them.
@@ -70,6 +70,7 @@ Formatting and Citation Requirements:
 •	Use headings, subheadings, bullet points, and tables to organize information clearly.
 •	Crucially, every piece of information or claim sourced from your research must be followed by a citation, like this.
 •	Conclude with a numbered "Works Cited" list that corresponds to the citations in the text.
+```
 ---
 
 ## Breakdown and Explanation of the Prompt
