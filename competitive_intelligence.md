@@ -111,6 +111,7 @@ Crucially, every piece of information or claim sourced from your research must b
 Conclude with a numbered "Works Cited" list that corresponds to the citations in the text.
 Note: This analysis should provide actionable intelligence that directly supports competitive positioning and sales effectiveness for [Your Company Name].---
 
+```
 ## Usage Instructions
 
 1. Replace bracketed placeholders `[Product/Company Name]`, `[Parent Company Name]`, and `[Your Company Name]` with actual entities
